@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+html {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+mark {
+  padding: 10% 0;
+  background-color: #00afcc;
+  font-size: 2.0rem;
+}
+
+.nav-list {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap__ttl {
+  padding-bottom: 4%;
+  font-size: 2rem;
+  line-height: 2.0;
+}
+
+.header {
+  padding: 0.5% 5%;
+  margin: 0 auto;
+  width: 90%;
+  /* height: 10vh; */
+  position: fixed;
+  /* z-index: 999; */
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  color: #00afcc;
+  font-size: 2.5rem;
+  background-color: #000;
+  padding: 0 2%;
+}
+
+.header-logo__ttl__2 {
+  padding-left: 4rem;
+}
+
+.header-nav__list {
+  display: flex;
+}
+
+.header-nav__list__item a {
+  color: #606060;
+  font-size: 1.5rem;
+  margin-left: 30px;
+}
+
+/* hover */
+.header-nav__list__item a:hover {
+  background-color: #00afcc;
+}
+
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url(../img/top.jpg);
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-wrap {
+  width: 90%;
+  font-size: 8rem;
+  letter-spacing: 10px;
+}
+
+.top-wrap__logo {
+  color: #00afcc;
+  background-color: #000;
+  opacity: 0.7;
+  display: inline-block;
+}
+
+.top-wrap__logo__ttl2 {
+  /* padding-left: 30rem; */
+  /* margin-left: 30rem; */
+}
+
+.top-wrap__logo2 {
+  /* display: inline-block; */
+  margin-bottom: 5%;
+  color: #fff;
+  /* background-color: #000; */
+  /* opacity: 0.7; */
+}
+
+.top-wrap__logo3 {
+  font-size: 6rem;
+  color: #ff2600;
+  text-stroke: 2px #000;
+  -webkit-text-stroke: 2px #000;
+}
+
+.about-wrap img {
+  width: 450px;
+  height: 450px;
+}
+
+.about-wrap__primary__ttl {
+  font-size: 3.0rem;
+  padding: 5% 0;
+}
+
+.about-wrap__primary__txt1 {
+  font-size: 1.5rem;
+  padding: 3% 0;
+}
+
+.about-wrap__primary__txt2 {
+  font-size: 1.5rem;
+  padding: 0 4.6rem;
+}
+
+.about-wrap__primary__txt3 {
+  font-size: 1.5rem;
+  padding: 3% 0;
+}
+
+.about-wrap__primary__txt4 {
+  font-size: 1.5rem;
+  padding: 0 4.6rem;
+}
+
+.skill {
+  background-color: #f5f5f5;
+}
+
+.skill-wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skill-wrap__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-wrap__list__item {
+  width: 45%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-wrap__list__item img {
+  width: 175px;
+  height: auto;
+}
+
+.item__level__star img {
+  width: 40px;
+  height: auto;
+}
+
+.item__level {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.gallery-wrap {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gallery-wrap__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gallery-wrap__list__item {
+  width: 30%;
+}
+
+.gallery-wrap__list__item img {
+  width: 100%;
+  margin: 5% 0;
+}
+
+.contact {
+  background-color: #f5f5f5;
+}
+
+.contact-wrap {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-wrap__btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #707070;;
+  padding: 1% 2%;
+  /* margin: 3%; */
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 10px #303030;
+}
+
+/* bnt:active */
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+}
+
+.btn a {
+  display: block;
+}
+
+.contact-wrap__btn__twiiter {
+  margin-bottom: 5%; 
+}
+
+.contact-wrap__btn img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-wrap__btn__txt {
+  padding: 0 2%;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2.5%;
+  background-color: #606060;
+  color: #fff;
+}
