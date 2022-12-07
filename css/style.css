@@ -6,8 +6,7 @@ html {
 
 a {
   text-decoration: none;
-   /*color: #fff; */
-  color: #000;
+  color: #fff;
 }
 
 mark {
@@ -45,29 +44,6 @@ mark {
   font-size: 1.5rem;
   line-height: 2.0;
 }
-
-/*Test-Start*/
-/* .header-wrap__main__nav {
-  width: 100%;
-  position: fixed;
-  background-color: #fff;
-}
-
-.header-wrap__main__nav__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-wrap__main__nav__list__item {
-  font-size: 1.2rem;
-  padding: 1% 2.5%;
-}
-
-.header-wrap__main__nav__list__item a:hover {
-  color: #75a9ff;
-} */
-/* Test-Finish */
 
 .header {
   width: 100%;
@@ -112,42 +88,6 @@ mark {
   font-size: 1.5rem;
 }
 
-/* ✕ */
-/* .header {
-  width: 90%;
-  padding: 0.5% 5%;
-  margin: 0 auto;
-  position: fixed;
-  z-index: 999;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-/* .header-logo {
-  padding: 0 2%;
-  color: #00afcc;
-  font-size: 2.5rem;
-  background-color: #000;
-} */
-
-/* .header-logo__ttl__2 {
-  padding-left: 4rem;
-} */
-
-/* .header-nav__list {
-  display: flex;
-} */
-
-/* .header-nav__list__item a {
-  padding: 5px 15px;
-  position: relative;
-  color: #606060;
-  font-size: 1.5rem;
-} */
-/* ✕ */
-
 /* hover */
 .header-wrap__nav__list__item a::before {
   position: absolute;
@@ -180,15 +120,6 @@ mark {
   background-size: cover;
 }
 
-/* ✕ */
-/* .top-wrap {
-  font-size: 8rem;
-  letter-spacing: 10px;
-  justify-content: center;
-  flex-direction: column;
-} */
-/* ✕ */
-
 .top-wrap__main {
   width: 35%;
   margin: 0 auto;
@@ -217,37 +148,6 @@ mark {
   text-stroke: 2px #000;
   -webkit-text-stroke: 2px #000;
 }
-
-/* ✕ */
-/* .top-wrap__logo {
-  width: 50%;
-  margin-bottom: 5%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  color: #00afcc;
-  background-color: rgba(0, 0, 0, 0.7);
-} */
-
-/* .top-wrap__logo__ttl1 {
-  padding-right: 20.0rem;
-} */
-
-/* .top-wrap__logo__ttl2 {
-  padding-left: 15.0rem;
-} */
-
-/* .top-wrap__logo__sub {
-  color: #fff;
-} */
-
-/* .top-wrap__logo2 {
-  font-size: 6rem;
-  color: #ff2600;
-  text-stroke: 2px #000;
-  -webkit-text-stroke: 2px #000;
-} */
-/* ✕ */
 
 .about-wrap img {
   width: 350px;
