@@ -19,36 +19,40 @@
   </head>
   <body>
     <header class="header" id="header">
-      <div class="header-logo">
-        <h1 class="header-logo__ttl__1">Riku</h1>
-        <h1 class="header-logo__ttl__2">Inaba</h1>
+      <div class="header-wrap">
+        <!-- <div class="header-wrap__main"> -->
+          <h1 class="header-wrap__logo">
+            <span class="header-wrap__logo1">Riku</span><br>
+            <span class="header-wrap__logo2">Inaba</span>
+          </h1>
+          <nav class="header-wrap__nav">
+            <ul class="header-wrap__nav__list">
+              <li class="header-wrap__nav__list__item">
+                <a href="#about">About</a>
+              </li>
+              <li class="header-wrap__nav__list__item">
+                <a href="#skill">Skill</a>
+                </li>
+              <li class="header-wrap__nav__list__item">
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li class="header-wrap__nav__list__item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        <!-- </div> -->
       </div>
-      <nav class="header-nav">
-        <ul class="header-nav__list">
-          <li class="header-nav__list__item">
-            <a href="#about">About</a>
-          </li>
-          <li class="header-nav__list__item">
-            <a href="#skill">Skill</a>
-            </li>
-          <li class="header-nav__list__item">
-            <a href="#gallery">Gallery</a>
-          </li>
-          <li class="header-nav__list__item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
     </header>
     <main>
-      <section class="top list__item">
-        <div class="top-wrap section">
-          <div class="top-wrap__logo">
-            <h2 class="top-wrap__logo__ttl1">Riku</h2>
-            <h2 class="top-wrap__logo__ttl2">Inaba</h2>
-            <h2 class="top-wrap__logo__sub">Portfolio</h2>
-          </div>
-          <h3 class="top-wrap__logo2">ホームページ作成依頼募集中</h3>
+      <section class="top">
+        <div class="top-wrap">
+          <h2 class="top-wrap__main">
+            <span class="top-wrap__main1">Riku</span>
+            <span class="top-wrap__main2">Inaba</span>
+            <span class="top-wrap__main3">Portfolio</span>
+          </h2>
+          <h3 class="top-wrap__sub">ホームページ作成依頼募集中</h3>
         </div>
       </section>
       <section class="about list__item" id="about">
@@ -165,18 +169,14 @@
               ご連絡お待ちしております。
             </h4>
             <div class="contact-wrap__btn">
-              <!-- <div class="contact-wrap__btn__twiiter btn"> -->
-                <a href="https://twitter.com/Mimo_mimo404" class="contact-wrap__btn__twiiter btn">
-                  <img src="img/twitter.png" alt="Twitter">
-                  <p class="contact-wrap__btn__txt">Twitterで連絡してみる</p>
-                </a>
-              <!-- </div> -->
-              <!-- <div class="contact-wrap__btn__mail btn"> -->
-                <a href="mailto:fa20.e.brz@gmail.com" class="contact-wrap__btn__mail btn">
-                  <img src="img/mail-icon.png" alt="mail">
-                  <p class="contact-wrap__btn__txt">メールで連絡してみる</p>
-                </a>
-              <!-- </div> -->
+              <a href="https://twitter.com/Mimo_mimo404" class="contact-wrap__btn__twitter btn">
+                <img src="img/twitter.png" alt="Twitter">
+                <p class="contact-wrap__btn__txt">Twitterで連絡してみる</p>
+              </a>
+              <a href="mailto:fa20.e.brz@gmail.com" class="contact-wrap__btn__mail btn">
+                <img src="img/mail-icon.png" alt="mail">
+                <p class="contact-wrap__btn__txt">メールで連絡してみる</p>
+              </a>
             </div>
           </div>
         </div>
